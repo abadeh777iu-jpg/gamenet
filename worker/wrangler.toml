@@ -1,0 +1,16 @@
+name = "gamenet-server"
+main = "src/index.js"
+compatibility_date = "2025-07-01"
+
+# متغیرهای عمومی (در wrangler.toml — توکن اینجا نرود)
+[vars]
+# مخزن گیت‌هابی که داده‌ها روی آن ذخیره می‌شود
+GITHUB_REPO = "abadeh777iu-jpg/gamenet"
+GITHUB_BRANCH = "main"
+# دامنه‌های مجاز برای CORS
+ALLOWED_ORIGINS = "https://abadeh777iu-jpg.github.io,http://localhost:8765,http://127.0.0.1:8765"
+SITE_URL = "https://abadeh777iu-jpg.github.io/gamenet/"
+# EMAIL_FROM = "Gamenet <onboarding@resend.dev>"
+
+# !!! توکن گیت‌هاب فقط و فقط اینجا (به‌صورت Secret) ذخیره می‌شود:
+#   npx wrangler secret put GITHUB_TOKEN
