@@ -16978,9 +16978,11 @@
     "amount": 500000,
     "receiptUrl": "seed://receipt-test0049@example.com.jpg",
     "transactionRef": "BACKFILL-1790149136327",
-    "status": "pending",
+    "status": "rejected",
     "createdAt": "2026-09-24T10:00:00.000Z",
-    "seed": "loadtest"
+    "seed": "loadtest",
+    "rejectReason": "T",
+    "reviewedAt": "2026-09-24T04:31:46.057Z"
   },
   {
     "id": 2190149136328,
